@@ -1,0 +1,22 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    transition-property: width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.box:hover{
+    width: 150px;
+    background-color: #e84610;
+}
+/*if we want to make a transition go both ways (hover and unhover),
+then transition properties should be moved to the box class
+.box:hover{
+    width: 150px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}*/
